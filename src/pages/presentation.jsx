@@ -4,7 +4,7 @@ export function Presentation() {
   return (
     <div>
       <Header />
-      <div className="flex  mx-[12rem]">
+      <div className="flex mx-[12rem]">
         <div className="flex flex-col w-1/2">
           <span className="text-4xl">Sobre o App</span>
           <span className="text-3xl mt-12">Resumo</span>
@@ -46,19 +46,19 @@ export function Presentation() {
             alt="tabela de clientes"
             className="w-[900px]"
           />
-          <span className="mb-4">TABELA DE CLIENTES</span>
+          <span className="mb-4 text-zinc-500">TABELA DE CLIENTES</span>
           <img
             src="tabela-textos.png"
             alt="tabela de textos"
             className="w-[700px]"
           />
-          <span className="mb-4">TABELA DE TEXTOS</span>
+          <span className="mb-4 text-zinc-500">TABELA DE TEXTOS</span>
           <img
             src="tabela-blocos.png"
             alt="tabela de blocos"
             className="w-[700px]"
           />
-          <span className="mb-4">TABELA DE BLOCOS</span>
+          <span className="mb-4 text-zinc-500">TABELA DE BLOCOS</span>
         </div>
       </div>
     </div>
