@@ -2,33 +2,33 @@ import Header from "../components/Header";
 
 export function Index() {
   return (
-    <div>
+    <div className="">
       <Header />
-      <div className="flex mx-[12rem]">
-        <div className=" flex flex-col w-2/3">
-          <span className="text-7xl  pr-40">
-            Você não precisa lutar contra eles sozinho.
+      <div className="grid grid-cols-12 mx-[12rem]">
+        <div className=" flex flex-col col-span-12 xl:col-span-8 ">
+          <span className="text-6xl text-justify  pr-40">
+            Advogando com eficiência e transparência, a um toque de distância.
           </span>
           <span className="text-2xl pt-9 pr-40 text-justify my-12 text-zinc-500">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
-            curabitur sodales conubia ut inceptos faucibus himenaeos tortor
-            eget, hac massa gravida arcu interdum proin curae inceptos faucibus
-            himenaeos tortor eget, hac massa gravida arcu interdum proin curae.
+            Um sistema pensado para ser um facilitador na vida de pessoas que
+            trabalham diáriamente advogando. Pensado em facilitar e simplificar
+            a maneira de se fazer petições, onde seu tempo será otimizado e você
+            terá tudo a um toque de distância.
           </span>
 
           <div className="flex w-[438px] relative items-center mt-10">
             <input
               type="text"
               className=" w-[438px] h-[74px] bg-zinc-700 rounded-full pl-14 pr-36"
-              placeholder="Enter your eamil address"
+              placeholder="Entre com seu email"
             />
             <button className=" w-[137px] h-[62px] inset-y-0 right-0 p-2 rounded-full bg-[#E3B748] absolute m-[6px] text-black font-bold">
               Vamos Conversar
             </button>
           </div>
         </div>
-        <div className="flex justify-end w-1/3">
-          <img src="img-01.png" alt="" />
+        <div className="flex justify-end col-span-12 xl:col-span-4">
+          <img src="img-03.png" alt="" />
         </div>
       </div>
     </div>

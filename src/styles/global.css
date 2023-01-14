@@ -6,3 +6,15 @@ body,
 html {
   @apply bg-[#111111] text-white;
 }
+
+.circle {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid rgb(161, 196, 66);
+  border-radius: 50%;
+  height: 112px;
+  width: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
