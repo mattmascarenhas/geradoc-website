@@ -1,10 +1,7 @@
-import Logo from "../components/Logo";
-
 export function Header() {
   return (
     <div
-      className="grid grid-cols-12  mx-[12rem] mt-14 mb-20 justify-between items-center
-    "
+      className={`grid grid-cols-12 fixed bg-[#111111] px-[12rem] pt-14 pb-20 justify-between items-center  `}
     >
       <div className="col-span-12 xl:col-span-2">
         <img src="logo-geradoc.png" alt="" className="w-[80%]" />

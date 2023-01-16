@@ -4,7 +4,7 @@ export function Index() {
   return (
     <div className="">
       <Header />
-      <div className="grid grid-cols-12 mx-[12rem]">
+      <div className="grid grid-cols-12 mx-[12rem] pt-[220px] ">
         <div className=" flex flex-col col-span-12 xl:col-span-8 ">
           <span className="text-6xl text-justify  pr-40">
             Advogando com eficiência e transparência, a um toque de distância.

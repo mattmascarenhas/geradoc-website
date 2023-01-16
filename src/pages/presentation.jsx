@@ -1,10 +1,11 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 export function Presentation() {
   return (
     <div>
       <Header />
-      <div className="flex mx-[12rem]">
+      <div className="flex mx-[12rem] pt-[220px]">
         <div className="flex flex-col w-1/2">
           <span className="text-4xl">Sobre o App</span>
           <span className="text-3xl mt-12">Resumo</span>
@@ -61,6 +62,7 @@ export function Presentation() {
           <span className="mb-4 text-zinc-500">TABELA DE BLOCOS</span>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

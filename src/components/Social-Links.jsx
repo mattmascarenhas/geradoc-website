@@ -1,6 +1,6 @@
 export function SocialLinks() {
   return (
-    <div className="flex mt-6 gap-6">
+    <div className="flex gap-6">
       <a href="https://github.com/mattmascarenhas">
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -5,7 +5,7 @@ export function AboutUs() {
   return (
     <div>
       <Header />
-      <div className="grid grid-cols-12 mx-[12rem]">
+      <div className="grid grid-cols-12 mx-[12rem] pt-[220px]">
         <div className="col-span-12 xl:col-span-6 flex flex-col">
           <span className="text-4xl">Sobre</span>
           <span className="text-2xl text-justify my-12 text-zinc-500">
@@ -39,7 +39,9 @@ export function AboutUs() {
                 Site Portfólio Front
               </button>
             </div>
-            <SocialLinks />
+            <div className="mt-6 ">
+              <SocialLinks />
+            </div>
           </div>
         </div>
       </div>
